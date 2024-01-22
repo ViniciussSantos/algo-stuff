@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { twoSum } from "./twosum";
 
-describe("two sum", () => {
+describe("1. Two Sum", () => {
   it("case 1", () => {
     expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
   });
