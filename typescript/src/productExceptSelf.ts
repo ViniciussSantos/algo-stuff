@@ -19,6 +19,6 @@ export function productExceptSelf(nums: number[]): number[] {
     ptr--;
   }
 
-  // I do this because the leetcode tester using loosely equal (I think) while I use strictly equal in my tests
+  // I do this because the leetcode tester uses loosely equal (I think) while I use strictly equal in my tests
   return res.map((v) => (v === -0 ? Math.abs(v) : v));
 }
